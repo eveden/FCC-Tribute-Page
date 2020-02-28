@@ -1,0 +1,83 @@
+/* Colors:
+red:    #C64F4F
+redGr:  #BE7675
+light pink: #F7E4E2
+blue:   #5FB7B7
+blueGr: #7BA7A9
+yellow: #EDC418
+yellowGr:   #D3BB50
+green:  #9FC797
+light green:    #CBE8C4
+light pink: #F7E4E2
+gray:   #D3D3D3 */
+
+/* Fonts:
+Miller Text Bold:
+    font-family: miller-text, serif;
+    font-weight: 700;
+    font-style: normal;
+
+Miller Text Roman:
+    font-family: miller-text, serif;
+    font-weight: 400;
+    font-style: normal;
+
+Granville Bold
+    font-family: granville, serif;
+    font-weight: 700;
+    font-style: normal; */
+    
+
+
+body{
+    font-family: miller-text, serif;
+    background-image: url("../images/Asset5.png");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+}
+
+h1{
+    font-family: granville, serif;
+    font-size: 1.8em;
+    color: #C64F4F;
+    letter-spacing: 0.25em;
+    font-size: 2.6em;
+    margin-left: 400px;
+    margin-top: 70px;    
+}
+
+#quote{
+    font-size: 1.4em;
+    margin-left: 300px;
+    letter-spacing: 0.2em;
+    color: #7C7C7C;
+}
+
+#img-div{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    box-shadow: 0.5px 0.5px 5px rgb(156, 125, 125);
+    max-width: 100%;
+}
+
+#img-caption{
+    margin-left: 340px;
+    font-size: 0.8em;
+}
+
+.container{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+} 
+
